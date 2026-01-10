@@ -65,3 +65,28 @@ brew install android-platform-tools
 If your PC fails to recognize the device on Windows, install the official [Vivo MTP USB Driver](https://easyshare.vivo.com/drivers/driver_ex.exe).
 
 ---
+
+## Debloating
+
+Removing unnecessary system bloat helps to improve battery life and performance.
+
+### Debloat List
+- The recommended packages for removal are provided in form of a [debloat preset](assets/preset/V2503-debloat.txt).
+- If you use the AI related features, remove them manually from list.
+
+### Method A: Desktop Tools (PC Required)
+1. **ADB App Control**: 
+   - [Official Docs](https://adbappcontrol.com/en/docs/) | [Setup Guide](https://www.youtube.com/watch?v=yGhM3gI5p4k)
+   - Import package names from [assets/preset/V2503-debloat.txt](assets/preset/V2503-debloat.txt).
+   - Review the selection and click **Disable** or **Uninstall**.
+2. **UAD-NG**:
+   - [Usage Guide](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/wiki/Usage)
+   - Connect device and apply the recommended presets.
+
+### Method B: Canta (No PC Required)
+1. Set up Shizuku and grant access to Canta.
+2. Open [assets/preset/V2503-debloat.txt](assets/preset/V2503-debloat.txt) and copy the package names.
+3. In Canta: **Settings > Import > Paste from clipboard**.
+4. Review and execute removal.
+
+---
