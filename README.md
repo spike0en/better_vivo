@@ -139,3 +139,35 @@ GCAM ports provide superior image processing, avoiding the aggressive sharpening
 | [AGC 8.4.300 v9.6](https://www.celsoazevedo.com/files/android/google-camera/dev-BigKaka/f/dl18/) | [TALHA x EGO V1](assets/xml/TALHA%20x%20EGO_V1_X200FE_AGC8.4.300_9.6.agc) | [shgv1.2k16 Lib](https://pixeldrain.com/u/yJ5NxJf4) |
 
 ---
+
+## Performance Optimization Tweaks
+
+### Dexopt
+Force-compiles system packages to improve app launch speeds. Run these after system updates or on demand after extended periods of system operation.
+```bash
+# Step 1: Force compile all packages
+adb shell cmd package compile -m speed -f -a
+
+# Step 2: Run background optimization job
+adb shell cmd package bg-dexopt-job
+```
+
+### Restricting System Apps
+Use the Digital Wellbeing trick to disable core apps that OriginOS prevents from being disabled normally:
+1. Open the **Digital Wellbeing** app.
+2. Find the system apps you want to disable and set their **App Timer** to 0 minutes.
+3. The app icons will turn grayscale, and the apps will be prevented from launching.
+4. The app may still continue to run in background.
+5. It is recommended to clear data and remove all permissions from those apps from App Info before performing the steps listed above.
+
+### One-Tap Force Stop
+- [Hail Visual Guide](https://www.youtube.com/watch?v=xmiUNFKbb58)
+- Use **Hail** with Shizuku mode enabled to force-stop selected apps instantly via a Quick Tile or home screen shortcut.
+- Note: Auto-freeze on device lock may not work reliably on all versions; manual intervention via the shortcut is recommended.
+
+### Background Process Control
+- Use **AppControl-X** (Shizuku mode) to restrict background activity for system and user apps.
+- Combine this with the system's "Restrict battery usage" setting for non-essential apps.
+- Note: Restricting background activity may prevent notifications; skip these settings for messaging or critical apps.
+
+---
