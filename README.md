@@ -1,8 +1,12 @@
 # Better Vivo
 
 [![Hits](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fspike0en%2Fbetter-vivo&label=Hits&icon=github&color=%23b02a37&labelColor=2E2E3F)](https://github.com/spike0en/better-vivo)
-[![Vivo X200 FE](https://img.shields.io/badge/Device-Vivo%20X200%20FE-blue.svg)](https://www.vivo.com.cn/)
-[![OriginOS](https://img.shields.io/badge/OS-OriginOS%206-orange.svg)](https://www.vivo.com.cn/originos)
+[![Stars](https://img.shields.io/github/stars/spike0en/better-vivo?logo=github&color=D4AF37)](https://github.com/spike0en/better-vivo/stargazzers)
+
+[![Vivo X200 FE](https://img.shields.io/badge/Device-Vivo%20X200%20FE-blue.svg)](https://www.vivo.com/in/products/param/x200-fe)
+[![OriginOS](https://img.shields.io/badge/OS-OriginOS%206-orange.svg)](https://www.vivo.com/en/originos)
+
+---
 
 ## Overview
 - A curated collection of tweaks, tips, and system optimizations designed to enhance performance, usability, and the overall user experience on the Vivo X200 FE (V2503).  
