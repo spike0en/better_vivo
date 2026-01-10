@@ -90,3 +90,52 @@ Removing unnecessary system bloat helps to improve battery life and performance.
 4. Review and execute removal.
 
 ---
+
+## Photography
+
+### Google Camera (GCAM) Ports
+
+GCAM ports provide superior image processing, avoiding the aggressive sharpening and post-processing found in stock camera apps.  
+
+> [!NOTE]
+> - Try different configurations and variants to find what works for your style. There is no single "best" XML or camera version.
+> - `Snapcam`, `awememe`, `scan3d`, `ruler`, `iris`, etc., are variants of the same GCAM with different package names. Use different variants to prevent installation conflicts (e.g., use `awememe` for one version and `ruler` for another).
+> - You must restart the camera app after switching from the rear lens to the front lens for configurations to apply properly on LMC.
+> - Configs often default to Google Photos. To use the stock album or other gallery apps, disable the option in settings: 
+> **LMC**: Settings > LMC tweaks > Turn off "Use Google Photos" | 
+> **AGC**: Settings > Advanced > Turn off "Use Google Photos"
+
+
+#### Config Setup for AGC (BigKaka)
+1. Download the XML file (.agc).
+2. Move the file to: `Internal storage/download/AGC/AGC 8.4/configs/`
+3. Open the AGC camera app.
+4. Click on the **More settings** icon from the top or bottom bar and grant necessary permissions.
+5. Click on the **Settings** icon from the top or bottom bar.
+6. Click **Load config**.
+7. Select the XML file you saved in the AGC configs folder and click **Save**.
+8. Switch between profiles from the top bar for different shooting scenarios.
+9. Import additional library (.so) files if available and required from the settings.
+
+---
+
+#### Config Setup for LMC (Hasli)
+1. Install the camera app.
+2. Place the XML (.xml) file in: `Internal Storage/LMC8.4/`
+3. If the app crashes by default: 
+   - Close the app.
+   - Long-press the app icon in the app drawer and select the **Video** shortcut.
+   - Navigate to **Settings > More Settings > Config Settings > Save settings**.
+4. Return to the video section and tap the blank space on the left or right side of the shutter button to open the config selection menu.
+5. Load the desired configuration.
+
+---
+
+#### Downloads
+
+| GCAM Version | Configs / XML | Libraries |
+| :--- | :--- | :--- |
+| [LMC 8.4 vR18F1](https://www.celsoazevedo.com/files/android/google-camera/dev-hasli/f/dl14/) | [TALHA Classic V1](assets/xml/TALHA_X200FE_Classic_V1_LMC8.4_R18F1.xml) <br> [TALHA Bright V1](assets/xml/TALHA_X200FE_Bright_V1_LMC8.4_R18F1.xml) | N/A |
+| [AGC 8.4.300 v9.6](https://www.celsoazevedo.com/files/android/google-camera/dev-BigKaka/f/dl18/) | [TALHA x EGO V1](assets/xml/TALHA%20x%20EGO_V1_X200FE_AGC8.4.300_9.6.agc) | [shgv1.2k16 Lib](https://pixeldrain.com/u/yJ5NxJf4) |
+
+---
