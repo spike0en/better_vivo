@@ -178,7 +178,7 @@ Use the [Digital Wellbeing trick](https://www.reddit.com/r/Vivo/comments/1m68zx8
 ## Blocking Ads and Telemetry
 
 ### A. DNS Method (Recommended)
-Both options below provide approximately 300,000 free queries per month, which is sufficient for a single device. This method allows you to block ads and control telemetry sent to OEM servers.
+This method allows you to block ads and control telemetry sent to OEM servers.
 
 - **[Adguard DNS](https://adguard-dns.io/en/public-dns.html)** - 300k free queries per month.
 - **[NextDNS](https://nextdns.io/)** - 300k free queries per month.
