@@ -35,7 +35,7 @@ To implement these tweaks, you will need the following tools:
 - **[Canta](https://github.com/samolego/Canta)** - A Shizuku-powered uninstaller to remove any app.
 - **[AppControl-X](https://github.com/risunCode/AppControl-X)** - Advanced app management and background control.
 - **[aShell](https://f-droid.org/en/packages/in.sunilpaulmathew.ashell/)** - A modern local ADB shell for Shizuku.
-- **[Hail](https://github.com/aistra0524/Hail)** - Freeze or force-stop apps to save resources.
+- **[Hail](https://f-droid.org/en/packages/com.aistra.hail/)** - Freeze or force-stop apps to save resources.
 
 ---
 
