@@ -136,10 +136,12 @@ GCAM ports provide superior image processing, avoiding the aggressive sharpening
 
 #### Downloads
 
-| GCAM Version | Configs / XML | Libraries | Credits |
-| :--- | :--- | :--- | :--- |
-| [LMC 8.4 vR18F1](https://www.celsoazevedo.com/files/android/google-camera/dev-hasli/f/dl14/) | [TALHA Classic V1](assets/xml/TALHA_X200FE_Classic_V1_LMC8.4_R18F1.xml) <br> [TALHA Bright V1](assets/xml/TALHA_X200FE_Bright_V1_LMC8.4_R18F1.xml) | N/A | Creator - [zZeRoZzAnDoNeZz](https://t.me/zZeRoZzAnDoNeZz) <br> Adapted by: [Talha](https://t.me/i_m_talhakhan) | 
-| [AGC 8.4.300 v9.6](https://www.celsoazevedo.com/files/android/google-camera/dev-BigKaka/f/dl18/) | [TALHA x EGO V1](assets/xml/TALHA%20x%20EGO_V1_X200FE_AGC8.4.300_9.6.agc) | [shgv1.2k16 Lib](https://pixeldrain.com/u/yJ5NxJf4) | Creator - [EGO](https://t.me/EGOIST23) <br> Adapted by: [Talha](https://t.me/i_m_talhakhan) | 
+| GCam | Config | Libraries | Changelogs / Notes | Credits |
+| :--- | :--- | :--- | :--- | :--- |
+| [LMC 8.4¹⁸](https://t.me/GCamRep/892) | [TALHA LMC Refined](assets/xml/TALHA_X200FE_Refined_LMC8.4.xml) | N/A | **Changelogs:** <br> - Refined sharpness (clean details, no harsh edges) <br> - Auto CCT OFF → custom color tuning for stable skin tones <br> - Balanced noise reduction <br> - Brighter output on all lenses with controlled highlights <br><br> **Result:** <br> - Natural colors, brighter images, improved shadows, no over-HDR look <br><br> **Notes:** <br> - If normal modes feel dark for people/events, use **PRO mode** <br> - Made for real-life shooting, not fake HDR | Creator: [Talha](https://t.me/i_m_talhakhan) <br> Base: [zZeRoZzAnDoNeZz](https://t.me/zZeRoZzAnDoNeZz) |
+| [LMC 8.4 vR18F1](https://www.celsoazevedo.com/files/android/google-camera/dev-hasli/f/dl14/) | [TALHA LMC Classic V1](assets/xml/TALHA_X200FE_Classic_V1_LMC8.4_R18F1.xml) <br><br> [TALHA LMC Bright V1](assets/xml/TALHA_X200FE_Bright_V1_LMC8.4_R18F1.xml) | N/A | N/A | Creator - [zZeRoZzAnDoNeZz](https://t.me/zZeRoZzAnDoNeZz) <br> Adapted by: [Talha](https://t.me/i_m_talhakhan) | 
+| [AGC 8.4.300 v9.6](https://www.celsoazevedo.com/files/android/google-camera/dev-BigKaka/f/dl18/) | [TALHA x EGO AGC V1](assets/xml/TALHA%20x%20EGO_V1_X200FE_AGC8.4.300_9.6.agc) | [shgv1.2k16 Lib](https://pixeldrain.com/u/yJ5NxJf4) | N/A | Creator - [EGO](https://t.me/EGOIST23) <br> Adapted by: [Talha](https://t.me/i_m_talhakhan) | 
+
 
 ---
 
